@@ -2,7 +2,7 @@
     "name": "portfolio",
     "version": "1.0.0",
     "description": "paetyportfolio",
-    "main": "index.js",
+    "main": "./index.js",
     "dependencies": {
         "concurrently": "^7.6.0",
         "cors": "^2.8.5",
