@@ -69,7 +69,7 @@
 .profile-picture-background {
     height: 92%;
     width: 92%;
-    background-image: url("C:\Users\admin\Desktop\portfolio\client\src\assets\Home\Patricia.jpg");
+    background-image: url("../../../assets/Home/Patricia.jpg");
     background-size: cover;
     border-radius: 50%;
     background-repeat: no-repeat;
