@@ -57,6 +57,8 @@ export default function Resume(props) {
     { skill: "Email Marketing", ratingPercentage: 85 },
     { skill: "Phone Skills", ratingPercentage: 95 },
     { skill: "Content Writing", ratingPercentage: 80 },
+    { skill: "hoot suite", ratingPercentage: 75 },
+    { skill: "Google Analytics", ratingPercentage: 77 },
   ];
 
   const projectsDetails = [
@@ -145,16 +147,16 @@ export default function Resume(props) {
         toDate={"2022"}
       />{" "}
       <ResumeHeading
-        heading={"David Engineering, Kenya"}
-        subHeading={"COMMUNICATION OFFICER"}
-        fromDate={"2021"}
-        toDate={"2021"}
-      />{" "}
-      <ResumeHeading
         heading={"Viamo · Full-time"}
         subHeading={"321 PRODUCT MANAGER"}
         fromDate={"2021"}
         toDate={"2022"}
+      />{" "}
+      <ResumeHeading
+        heading={"David Engineering, Kenya"}
+        subHeading={"COMMUNICATION OFFICER"}
+        fromDate={"2021"}
+        toDate={"2021"}
       />{" "}
       <ResumeHeading
         heading={"Pevans East Africa LTD"}
@@ -281,7 +283,10 @@ export default function Resume(props) {
     );
   };
   return (
-    <div className="resume-container screen-container fade-in" id={props.id || ""}>
+    <div
+      className="resume-container screen-container fade-in"
+      id={props.id || ""}
+    >
       <div className="resume-content">
         <ScreenHeading title={"Resume"} subHeading={"My Formal Bio Details"} />{" "}
         <div className="resume-card">

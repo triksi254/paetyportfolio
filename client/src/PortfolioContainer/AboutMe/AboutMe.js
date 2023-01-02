@@ -24,6 +24,7 @@ export default function AboutMe(props) {
         "Social Media marketing",
         "Project Management",
         "Business Development",
+        "Lead Generation",
       ],
       heading: "Here are a Few Highlights",
     },
@@ -56,9 +57,13 @@ export default function AboutMe(props) {
               {renderHighlight()}{" "}
             </div>{" "}
             <div className="about-me-options">
-              <button className="btn primary-btn"
+              <button
+                className="btn primary-btn"
                 onClick={() => ScrollService.scrollHandler.scrollToHireMe()}
-              > Hire Me </button>{" "}
+              >
+                {" "}
+                Hire Me{" "}
+              </button>{" "}
               <a href="resume.pdf" download="Patricia resume.pdf">
                 <button className="btn highlighted-btn"> Get Resume </button>{" "}
               </a>{" "}
