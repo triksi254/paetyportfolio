@@ -32,5 +32,8 @@
         "url": "https://github.com/triksi254/paetyportfolio/issues"
     },
     "homepage": "https://github.com/triksi254/paetyportfolio#readme",
-    "devDependencies": {}
+    "devDependencies": {},
+    "overrides": {
+        "trim-newlines": "^3.0.1"
+    }
 }
