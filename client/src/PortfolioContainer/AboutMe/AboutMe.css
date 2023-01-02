@@ -19,7 +19,7 @@
 
 .about-me-profile {
     width: 50%;
-    background-image: url("C:\Users\admin\Desktop\portfolio\client\src\assets\AboutMe\pat.png");
+    background-image: url("../../assets/AboutMe/pat.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
